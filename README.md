@@ -33,3 +33,5 @@ views in mvc:
  
  - .cshtml is an extenstion that helps the mvc runtime indentify pages that should have dynamic content
  - when linking you don't lint to About.cshtml you just link to About
+ 
+ mvc allows us to make a special shared page called a layout page and just has static content that is used throughout the site
