@@ -25,6 +25,11 @@ Scripts - includes all js files
 
 Web.config - information or configuration items these settings might be changed often (database strings and contact email addresses and details)
 
+.cshtml use @ a lot - razor syntax 
+can grab values from your controller and present it in the views
 
-
-
+views in mvc:
+ - razor is just the engine that mvc uses to process our c# code to generat the dynamic page html
+ 
+ - .cshtml is an extenstion that helps the mvc runtime indentify pages that should have dynamic content
+ - when linking you don't lint to About.cshtml you just link to About
